@@ -2,6 +2,7 @@
 echo "================================"
 echo "DevOps Student Application"
 echo "================================"
+echo ""
 echo "Name: ${STUDENT_NAME:-Diyar}"
 echo "Surname: ${STUDENT_SURNAME:-Aidaruly}"
 echo "Group: ${STUDENT_GROUP:-IT2-2307}"
