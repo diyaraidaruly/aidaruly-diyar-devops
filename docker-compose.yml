@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    image: aidaruly-diyar-devops
+    container_name: aidaruly-diyar-compose
+    environment:
+      STUDENT_NAME: Diyar
+      STUDENT_SURNAME: Aidaruly
+      STUDENT_GROUP: IT2-2307
+      STUDENT_ID: "37452"
+    command: sh -c "/app/app.sh && sleep 600"
